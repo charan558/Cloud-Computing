@@ -1,0 +1,17 @@
+public class alphatri {
+    public static void main(String[] args) {
+        int n=5;
+        for(int i=1;i<=n;i++)
+        {
+            for(int j=i;j>=1;j--)
+            {
+                if(i>=j)
+                {
+                System.out.print((char)(64+n+1-j));
+                }
+            }
+            
+            System.out.println();
+        }
+    }
+}
